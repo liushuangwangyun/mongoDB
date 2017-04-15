@@ -94,6 +94,8 @@ WriteResult({ "nInserted" : 1 })
 注：如果不指定_id 字段save()方法类似于insert()方法。如果指定_id字段，则会更新该_id的数据。
 
 ## 更新文档
+db.collectionName.update()
+db.collectionName.save()
 
 
 
